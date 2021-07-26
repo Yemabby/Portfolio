@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border;
 }
+body {
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 /* Main Styling */
 html, body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,6 +80,7 @@ p{
 }
 .text-primary {
     color: #f7c08a;
+    text-shadow: 0.2rem 0.2rem slategray;
 }
 .lead {
     font-size: 20px;
@@ -83,6 +91,7 @@ p{
 }
 .btn {
     display: inline-block;
+    border-radius: 20px;
     font-size: 18px;
     color: #fff;
     background: #333;
@@ -100,4 +109,17 @@ p{
     background: #444;
     color:#fff;
     padding: 20px;
+}
+.box {
+    background: white;
+    width: 150px;
+    height: 150px;
+    /* transition: all 1s ease-in-out; */
+    /* transition-property: border-radius; */
+    transition: all 2s ease-in-out;
+}
+.box:hover {
+    background: rgb(79, 79, 235);
+    border-radius: 50%; 
+    transform: rotate(150deg);
 }
