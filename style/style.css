@@ -4,13 +4,13 @@
     padding: 0;
     box-sizing: border;
 }
-body {
+ body {
     background: #333;
-    display: flex;
-    align-items: center;
+     display: flex; 
+     align-items: center;
     justify-content: center;
     height: 100vh;
-}
+} 
 /* Main Styling */
 html, body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
